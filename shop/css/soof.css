@@ -1,0 +1,246 @@
+
+/* Global settings (reset values)
+ * ------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, 
+em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, 
+ruby, section, summary, time, mark, audio, video, input, textarea {
+	color: #333333;
+	font-family: 'lucida grande';
+}
+
+body {
+	background: none;
+}
+
+header .search.clicked .search-btn
+{
+	border-color: #777;
+}
+
+#highlights .box .box-arrow
+{
+	display: none;
+}
+
+.ui-opts
+{
+	background-color: #fff;
+}
+
+#ui-img-xl-box .img-content .xlarge-box
+{
+	background: url("../img/icons/loading-icon.gif") no-repeat scroll center center transparent;
+}
+
+/* Select background color option (Don't delete)
+ * ------------------------- */
+#select-bg-box {
+	background: #fff;
+	border: 1px solid #ededed;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	float: right;
+	margin: 0 0 8px;
+	overflow: hidden;
+	padding: 5px 5px 5px 12px;
+	width: 190px;
+}
+#select-bg-box label {
+	display: block;
+	color: #555;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	margin-right: 6px;
+	padding-top: 3px;
+}
+#select-bg-box input {
+	border: 1px solid #dedede;
+	color: #555;
+	display: block;
+	float: right;
+	font-size: 11px;
+	padding: 2px 5px;
+	width: 60px;
+}
+/* ------------------------- */
+
+/* Text color main
+ * ------------------------- */
+nav .categories li a,
+.ui-opts ul li
+{
+	color: #333333;
+}
+
+
+/* Text color light
+ * ------------------------- */
+header .header .title p,
+#highlights .box .prices dl dt,
+#highlights .box .prices dd span,
+footer .ondango li,
+nav ul li,
+.products-list .category-separator,
+.products-list .product .button-box span,
+.product-view .title-box em,
+.product-view h2,
+.product-view .prices dl dt,
+.product-view .prices dd span,
+.checkout .fb-box-header p, 
+.checkout .amount-box .light,
+.checkout .fb-box-inner h2,
+.checkout .product .light,
+.checkout .product .quantity-box .label,
+.recommendations .product .button-box span
+{
+	color: #999999;
+}
+
+
+/* Links color 
+ * ------------------------- */
+a,
+a:visited,
+nav .select-category span,
+.products-list .product h2,
+.recommendations .product h2
+{
+	color: #3B5998;
+}
+
+header .header.big #shop-logo:hover,
+header .header.small #shop-logo:hover,
+nav .select-category:hover em,
+.products-list .product:hover
+{
+	border-color: #3B5998;
+}
+
+/* Border color
+ * ------------------------- */
+header .header.big #shop-logo,
+header .header.small #shop-logo,
+#highlights .box .box-content,
+#highlights .box .top,
+nav,
+nav .select-category em,
+nav .select-category.clicked em, nav .select-category.clicked:hover em,
+nav .categories,
+nav .categories li a:hover,
+.products-list .product,
+.product-view .fb-box,
+.product-view h1, .product-view h2,
+.product-view .social-plugins,
+#ui-img-xl-box,
+.checkout .fb-box,
+.checkout .fb-box-inner h1,
+.checkout .fb-box-inner h2,
+.checkout .product,
+.checkout .product a.img,
+.checkout .product img.img,
+.checkout .amount-box .hr,
+footer
+{
+	border-color: #C4CDE0;
+}
+
+
+/* Header bg color
+ * ------------------------- */
+.checkout .fb-box-header,
+.product-view .social-plugins
+{
+	background-color: #F1F1F1;
+}
+
+
+/* Content bg color
+ * ------------------------- */
+header .header.big #shop-logo,
+header .header.small #shop-logo,
+nav .categories,
+#highlights .box .box-content,
+.products-list .product,
+.product-view .fb-box,
+#ui-img-xl-box,
+.ui-lightbox .lbox-main,
+.checkout .fb-box
+{
+	background-color: #FFFFFF;
+}
+
+nav .categories li a
+{
+	border-color: #FFFFFF;
+}
+
+
+/* Footer bg color
+ * ------------------------- */
+#highlights .box .button-box,
+.products-list .product .button-box,
+.product-view .button-box,
+#ui-img-xl-box .img-content .button-box,
+.ui-lightbox .lbox-main .button-box,
+.checkout .button-box,
+.recommendations .product .button-box
+{
+	background-color: #EDEFF3;
+}
+
+/* Buttons color
+ * ------------------------- */
+a.button, input.button, button.button,
+header .search .search-btn,
+#highlights .box .top span.icon,
+nav .select-category em,
+nav ul li.separator,
+.ui-combobox,
+.ui-combobox em,
+.ui-checkbox.checked,
+.product-view .description .see-more em,
+.share-link .sl-btn em,
+.checkout .fb-box-header.cart,
+.checkout .fb-box-header.cart em,
+.checkout .product .quantity-box .one-more, .checkout .product .quantity-box .one-less,
+.checkout .edit
+{
+	background-image: url(https://static.ondango.com/img/sprite_v4.png);
+}
+
+
+/* Buttons main color
+ * ------------------------- */
+a.button, input.button, button.button,
+.ui-combobox,
+.recommendations .product .badge.dailydeal
+{
+	border-color: #3B5998;
+}
+
+a.button, input.button, button.button
+{
+	color: #fff;
+}
+
+header .search.clicked .search-btn,
+nav .select-category.clicked em, nav .select-category.clicked:hover em,
+nav .categories li a:hover,
+.ui-opts ul li.selected, .ui-opts ul li.found, .ui-opts ul li:hover,
+.recommendations .product .badge.dailydeal
+{
+	background-color: #3B5998;
+}
+
+header .search form,
+nav .categories,
+.share-link .sl-wrapper .sl-box
+{
+	border-bottom-color: #3B5998;
+}
